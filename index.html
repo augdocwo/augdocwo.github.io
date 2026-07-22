@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Augustin Thomas — Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Augustin Thomas, full-stack developer building fast, reliable web systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">A. T<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#intro" class="nav-link"><span class="path">~/intro</span></a>
+      <a href="#skills" class="nav-link"><span class="path">~/skills</span></a>
+      <a href="#projects" class="nav-link"><span class="path">~/projects</span></a>
+      <a href="#contact" class="nav-link"><span class="path">~/contact</span></a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- INTRO -->
+  <section class="hero" id="intro">
+    <div class="hero-inner">
+      <p class="eyebrow">$ whoami</p>
+      <h1 class="hero-title">
+        <span id="typedName"></span><span class="cursor" aria-hidden="true">_</span>
+      </h1>
+      <p class="hero-role">Full-Stack Developer — building fast, reliable systems for the web.</p>
+      <p class="hero-desc">I turn ambiguous product ideas into shipped, maintainable software. Comfortable across the stack, most at home where backend logic meets a clean interface.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-meta">
+        <div class="meta-item"><span class="meta-label">status</span><span class="meta-value"><span class="pulse"></span>open to work</span></div>
+        <div class="meta-item"><span class="meta-label">based in</span><span class="meta-value">Remote / GMT+5:30</span></div>
+        <div class="meta-item"><span class="meta-label">focus</span><span class="meta-value">TypeScript · React · Node</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-inner">
+      <p class="eyebrow">$ cat ~/skills</p>
+      <h2 class="section-title">System capabilities</h2>
+      <p class="section-sub">Skills, scanned and rated by hands-on hours, not buzzwords.</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Frontend</h3>
+          <div class="skill-bar" data-level="92">
+            <div class="skill-bar-head"><span>JavaScript / TypeScript</span><span class="skill-pct">92%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-level="88">
+            <div class="skill-bar-head"><span>React / Next.js</span><span class="skill-pct">88%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-level="80">
+            <div class="skill-bar-head"><span>CSS / Design Systems</span><span class="skill-pct">80%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Backend</h3>
+          <div class="skill-bar" data-level="85">
+            <div class="skill-bar-head"><span>Node.js / Express</span><span class="skill-pct">85%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-level="78">
+            <div class="skill-bar-head"><span>PostgreSQL / SQL</span><span class="skill-pct">78%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-level="70">
+            <div class="skill-bar-head"><span>REST / GraphQL APIs</span><span class="skill-pct">70%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Tooling</h3>
+          <div class="skill-bar" data-level="82">
+            <div class="skill-bar-head"><span>Git / CI-CD</span><span class="skill-pct">82%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-level="65">
+            <div class="skill-bar-head"><span>Docker / Deployment</span><span class="skill-pct">65%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-level="75">
+            <div class="skill-bar-head"><span>Testing (Jest / Playwright)</span><span class="skill-pct">75%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow">$ ls ~/projects</p>
+      <h2 class="section-title">Selected builds</h2>
+      <p class="section-sub">A few things I've shipped end to end.</p>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-index">01</span>
+            <span class="project-tags"><span>React</span><span>Node</span><span>Postgres</span></span>
+          </div>
+          <h3 class="project-title">Ledger</h3>
+          <p class="project-desc">A lightweight expense tracker with shared budgets, recurring transaction detection, and exportable monthly reports.</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Live demo →</a>
+            <a href="#" class="project-link">Source →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-index">02</span>
+            <span class="project-tags"><span>Next.js</span><span>GraphQL</span><span>Redis</span></span>
+          </div>
+          <h3 class="project-title">Pulse</h3>
+          <p class="project-desc">Real-time status dashboard for distributed services — live incident feed, uptime history, and on-call paging.</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Live demo →</a>
+            <a href="#" class="project-link">Source →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-index">03</span>
+            <span class="project-tags"><span>TypeScript</span><span>Express</span><span>Docker</span></span>
+          </div>
+          <h3 class="project-title">Routine</h3>
+          <p class="project-desc">A habit-tracking API with streak logic, reminder scheduling, and a small CLI client for quick logging.</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Live demo →</a>
+            <a href="#" class="project-link">Source →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-index">04</span>
+            <span class="project-tags"><span>React</span><span>WebSockets</span><span>SQLite</span></span>
+          </div>
+          <h3 class="project-title">Roundtable</h3>
+          <p class="project-desc">Async standup tool for small teams — threaded updates, blockers surfaced automatically, weekly digest email.</p>
+          <div class="project-links">
+            <a href="#" class="project-link">Live demo →</a>
+            <a href="#" class="project-link">Source →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-inner section-inner-narrow">
+      <p class="eyebrow">$ ./contact --send</p>
+      <h2 class="section-title">Let's build something</h2>
+      <p class="section-sub">Open to full-time roles, contract work, and interesting problems. Fill in the form or reach out directly.</p>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+          <span class="field-error" id="nameError"></span>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          <span class="field-error" id="emailError"></span>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="What are you building?" required></textarea>
+          <span class="field-error" id="messageError"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send message</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-direct">
+        <a href="mailto:Augustin.Thomas@example.com" class="contact-link">Augustin.Thomas@example.com</a>
+        <div class="contact-social">
+          <a href="#" class="social-link">GitHub</a>
+          <a href="#" class="social-link">LinkedIn</a>
+          <a href="#" class="social-link">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>© <span id="year"></span> Augustin Thomas</span>
+    <span class="footer-note">Built with HTML, CSS &amp; JavaScript</span>
+    <a href="#top" class="footer-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
